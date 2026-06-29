@@ -3,7 +3,7 @@ Este repositório conta com algumas das implementações usando a linguagem C de
 ---
 ## Livros Usados
 1. **"C como Programar"** - *Paul J. Deitel, Harvey Deitel*
-2. **"Algoritmos - Teoria e Prática** - *Thomas H. Cormen, Charles E.Leiserson, Ronald L. Rivest e Clifford Stein*
+2. **"Algoritmos - Teoria e Prática"** - *Thomas H. Cormen, Charles E.Leiserson, Ronald L. Rivest e Clifford Stein*
 
 Além de algumas notas de aula da faculdade.
 
