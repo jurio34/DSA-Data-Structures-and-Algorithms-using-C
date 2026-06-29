@@ -1,6 +1,4 @@
-//
-// Created by gtgmaster on 08/06/2026.
-//
+
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct Stack {
@@ -48,32 +46,32 @@ int main() {
   int value;
   int options;
 
-
-  printf("Digite a operação a ser feita na pilha: (1- Empilhar, 2- Desempilhar, 3- Sair)\n");
+  printf("Digite a operação a ser feita na pilha: (1- Empilhar, 2- "
+         "Desempilhar, 3- Sair)\n");
   scanf("%d", &options);
 
   while (options != 3) {
     switch (options) {
-      case 1:
-        printf("Digite o valor a ser empilhado: \n");
-        scanf("%d", &value);
-        push(&head, value);
-        print_stack(&head);
-        break;
-      case 2:
-        value = pop(&head);
-        if (value != -1) {
-          printf("O valor desempilhado eh: %d\n", value);
-        }
-        print_stack(&head);
-        break;
-      default:
-        printf("Opção inválida!\n");
-        break;
+    case 1:
+      printf("Digite o valor a ser empilhado: \n");
+      scanf("%d", &value);
+      push(&head, value);
+      print_stack(&head);
+      break;
+    case 2:
+      value = pop(&head);
+      if (value != -1) {
+        printf("O valor desempilhado eh: %d\n", value);
+      }
+      print_stack(&head);
+      break;
+    default:
+      printf("Opção inválida!\n");
+      break;
     }
 
-
-    printf("\nDigite a próxima operação: (1- Empilhar, 2- Desempilhar, 3- Sair)\n");
+    printf("\nDigite a próxima operação: (1- Empilhar, 2- Desempilhar, 3- "
+           "Sair)\n");
     scanf("%d", &options);
   }
 
