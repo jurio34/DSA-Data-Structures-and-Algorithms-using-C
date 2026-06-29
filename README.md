@@ -25,6 +25,10 @@ O progresso deverá cobrir todas as bases da DSA indo desde estruturas dinâmica
 
 ## Sorting algorithms (algoritmos de ordenação)
 -[ ] **BubbleSort**
+
 -[ ] **InsertionSort**
+
 -[ ] **QuickSort**
+
 -[ ] **MergeSort**
+
