@@ -12,13 +12,18 @@ O progresso deverá cobrir todas as bases da DSA indo desde estruturas dinâmica
 
 ## Data Structures (Estruturas de Dados)
 -[x] **Stack** (Pilha dinâmica)
+
 -[ ] **List** (Listas ligadas)
+
 -[ ] **Queue** (Fila dinâmica)
+
 -[ ] **Heap**
+
 -[x] **Binary Search Tree** (Árvore de Busca Binária)
+
 -[ ] **Balanced Trees** - Algumas (à definir)
 
-##Sorting algorithms (algoritmos de ordenação)
+## Sorting algorithms (algoritmos de ordenação)
 -[ ] **BubbleSort**
 -[ ] **InsertionSort**
 -[ ] **QuickSort**
